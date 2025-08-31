@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Korinna', Arial, sans-serif;
+    background-color: #000066;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.team {
+    background-color: #0000CC;
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 1.2em;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.category {
+    background-color: #0000CC;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.question {
+    background-color: #000099;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white; /* Make the text color white */
+}
+
+.question:disabled {
+    background-color: #222;
+    cursor: not-allowed;
+}
+
+.question {
+    color: white; /* Ensures the question text is white */
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+.popup button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#answer-popup {
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+#question-text {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1.5em;
+    color: #0000CC;
+}
+
+#answer-text {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1.5em;
+    color: #0000CC;
+}

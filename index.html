@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy! Law Edition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Jeopardy! Law Edition</h1>
+
+    <div id="setup">
+        <h2>Enter Team Names</h2>
+        <div id="team-inputs">
+            <input type="text" placeholder="Team Name">
+        </div>
+        <button id="add-team">Add Team</button>
+        <button id="start-game">Start Game</button>
+    </div>
+
+    <div id="game" style="display: none;">
+        <div id="scores" class="scores"></div>
+        <div id="jeopardy-board" class="board"></div>
+    </div>
+
+    <div class="popup" id="popup">
+        <h2 id="question-text"></h2>
+        <button onclick="showAnswer()">Show Answer</button>
+    </div>
+
+    <div class="popup" id="answer-popup">
+        <h2 id="answer-text"></h2>
+        <label for="team-select">Who answered?</label>
+        <select id="team-select"></select>
+        <button onclick="updateScore(true)">Correct</button>
+        <button onclick="updateScore(false)">Incorrect</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <audio id="jeopardy-theme">
+        <source src="https://ia600900.us.archive.org/17/items/tvtunes_8230/Law%20and%20Order%20-%20Sound%20Effect.mp3.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
