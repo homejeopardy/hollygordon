@@ -1,38 +1,38 @@
 const categories = {
-    "Ethical Principles": {
-        100: ["Acting with honesty and truthfulness in all business dealings.", "Integrity"],
-        200: ["The duty to keep sensitive information private.", "Confidentiality"],
-        300: ["Acting in the best interest of clients, customers, or stakeholders.", "Fiduciary duty"],
-        400: ["A situation where personal interests could interfere with professional responsibilities.", "Conflict of interest"],
-        500: ["The principle that requires professionals to acknowledge and correct their mistakes.", "Accountability"]
+    "Potent Potables": {
+        100: ["This spirit is traditionally made from fermented agave in Mexico.", "Tequila"],
+        200: ["A classic cocktail of whiskey, sugar, bitters, and an orange peel.", "Old Fashioned"],
+        300: ["This Italian liqueur, often enjoyed after dinner, is flavored with anise.", "Sambuca"],
+        400: ["The national drink of Brazil made with cachaça, sugar, and lime.", "Caipirinha"],
+        500: ["A traditional Japanese alcoholic beverage brewed from fermented rice.", "Sake"]
     },
-    "Workplace Conduct": {
-        100: ["Treating colleagues with fairness, dignity, and respect.", "Professionalism"],
-        200: ["Unwelcome behavior that creates a hostile or uncomfortable work environment.", "Harassment"],
-        300: ["Reporting unethical behavior or policy violations.", "Whistleblowing"],
-        400: ["Avoiding favoritism and personal bias in decision-making.", "Impartiality"],
-        500: ["Using company resources for personal gain without authorization.", "Misappropriation"]
+    "Plants": {
+        100: ["The process by which plants convert sunlight into energy.", "Photosynthesis"],
+        200: ["This part of the plant transports water from the roots to the leaves.", "Xylem"],
+        300: ["The world’s largest rainforest.", "The Amazon"],
+        400: ["These plants grow on other plants for support but are not parasitic.", "Epiphytes"],
+        500: ["The study of fungi, often considered alongside botany.", "Mycology"]
     },
-    "Legal & Compliance": {
-        100: ["Falsifying documents or financial records for personal or business gain.", "Fraud"],
-        200: ["Laws that protect employees from discrimination based on race, gender, or religion.", "Equal Employment Opportunity (EEO) laws"],
-        300: ["Offering or accepting something of value to influence a business decision.", "Bribery"],
-        400: ["The requirement to disclose any conflicts of interest in professional dealings.", "Transparency"],
-        500: ["A set of company policies that outline acceptable workplace behavior and expectations.", "Code of Conduct"]
+    "Presidents": {
+        100: ["The first President of the United States.", "George Washington"],
+        200: ["This president issued the Emancipation Proclamation.", "Abraham Lincoln"],
+        300: ["The only U.S. president to serve more than two terms.", "Franklin D. Roosevelt"],
+        400: ["The youngest elected president in U.S. history.", "John F. Kennedy"],
+        500: ["The president who signed the Civil Rights Act of 1964.", "Lyndon B. Johnson"]
     },
-    "Professional Responsibilities": {
-        100: ["The expectation that professionals will continue to develop their skills and knowledge.", "Continuous learning"],
-        200: ["The obligation to report misconduct, even if it may have personal consequences.", "Duty to report"],
-        300: ["Avoiding giving or receiving these to prevent conflicts of interest.", "Gifts and favors"],
-        400: ["Following lawful instructions from supervisors unless they violate ethical standards.", "Ethical obedience"],
-        500: ["The responsibility of a leader to set a strong ethical example.", "Ethical leadership"]
+    "Puns": {
+        100: ["What do you call fake spaghetti?", "An impasta"],
+        200: ["I’m reading a book on anti-gravity. It’s ______.", "Impossible to put down"],
+        300: ["I used to play piano by ear, but now I use my ______.", "Hands"],
+        400: ["This type of joke relies on a play on words for humor.", "Pun"],
+        500: ["I stayed up all night to see where the sun went… Then it ______.", "Dawned on me"]
     },
-    "Digital & Online Conduct": {
-        100: ["Using company technology for personal, illegal, or inappropriate purposes.", "Misuse of company resources"],
-        200: ["The duty to protect sensitive client or company data.", "Data privacy"],
-        300: ["Unauthorized sharing or leaking of confidential company information.", "Information breach"],
-        400: ["Posting false or damaging statements about a company or colleague online.", "Defamation"],
-        500: ["The principle that encourages professionals to think carefully before posting online.", "Responsible online conduct"]
+    "Potter": {
+        100: ["The house at Hogwarts known for bravery and courage.", "Gryffindor"],
+        200: ["This professor teaches Potions for much of Harry’s time at Hogwarts.", "Severus Snape"],
+        300: ["The name of Harry’s owl.", "Hedwig"],
+        400: ["The killing curse, one of the three Unforgivable Curses.", "Avada Kedavra"],
+        500: ["The device Hermione uses to attend multiple classes at once in *Prisoner of Azkaban*.", "Time-Turner"]
     }
 };
 
